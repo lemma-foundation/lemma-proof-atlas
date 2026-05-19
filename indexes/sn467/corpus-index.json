@@ -1,0 +1,17 @@
+{
+  "files": [
+    {
+      "path": "epoch-000001.jsonl",
+      "rows": 1,
+      "sha256": "8701c945565a6b0ae7ab8b8e6dba86c0626de7c7f7a14af2d79421f45e1f475e"
+    },
+    {
+      "path": "epoch-000002.jsonl",
+      "rows": 1,
+      "sha256": "35e1727ff53faf4b56c8779ba9a21aaa88fdeb09a3c6c8cd91229cf7067999a4"
+    }
+  ],
+  "row_count": 2,
+  "schema_version": 1,
+  "updated_at": "2026-05-19T07:27:05Z"
+}
