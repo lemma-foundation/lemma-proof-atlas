@@ -6,11 +6,11 @@ Lemma Corpus SN467 smoke artifacts.
 
 ## Contents
 
-The checked-in artifact set contains 5 accepted Lean proof rows, the pinned registry used to select the active K-window, and compact JSONL exports for downstream inspection.
+The checked-in artifact set contains 6 accepted Lean proof rows, the pinned registry used to select the active K-window, and compact JSONL exports for downstream inspection.
 
 ## Verification
 
-The validator accepted all 5 proofs with the pinned Lean verifier. Schema validation passed before export. The fifth row came from the first weights-enabled SN467 testnet pass.
+The validator accepted all 6 proofs with the pinned Lean verifier. Schema validation passed before export. The fifth and sixth rows came from weights-enabled SN467 testnet passes.
 
 ## Privacy Boundary
 
