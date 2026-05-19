@@ -18,7 +18,7 @@ exports/sn467/      compact downstream dataset exports
 - netuid: `467`
 - active K: `10`
 - registry: `registries/sn467/2d5d4843c1b48797d9a0ab53b57844c894a121fa54a6e18231371de657bd0403.json`
-- corpus rows: `4`
-- weights written: `false`
+- corpus rows: `5`
+- weights written: `true` for `epoch-000005.jsonl`
 
 These rows are smoke proofs for the validator-to-corpus pipeline, including submissions packaged by the miner path and accepted by the validator path. This is not a production dataset release.
