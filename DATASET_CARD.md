@@ -2,15 +2,15 @@
 
 ## Dataset
 
-Lemma Corpus SN467 smoke artifacts.
+Lemma Corpus SN467 smoke and real-task artifacts.
 
 ## Contents
 
-The checked-in artifact set contains 12 accepted Lean proof rows, the pinned registry used to select the active K-window, and compact JSONL exports for downstream inspection.
+The checked-in artifact set contains 18 accepted Lean proof rows, pinned registries used to select active K-windows, one proof-erased Mathlib snapshot, and compact JSONL exports for downstream inspection.
 
 ## Verification
 
-The validator accepted all 12 proofs with the pinned Lean verifier. Schema validation passed before export. The fifth, sixth, and seventh epoch files came from weights-enabled SN467 testnet passes.
+The validator accepted all 18 proofs with the pinned Lean verifier. Schema validation passed before export. The fifth, sixth, and seventh epoch files came from weights-enabled SN467 testnet passes. The eighth epoch contains six real Mathlib-derived theorem tasks accepted in a no-chain validation pass.
 
 ## Privacy Boundary
 
@@ -18,4 +18,4 @@ This repository is public-data only. Do not publish validator receipts, submissi
 
 ## License
 
-Rows carry source-level license metadata. The smoke rows are generated test data marked `CC-BY-4.0` in the registry.
+Rows carry source-level license metadata. The smoke rows are generated test data marked `CC-BY-4.0`; the Mathlib-derived rows carry `Apache-2.0` source metadata.
