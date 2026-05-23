@@ -2,64 +2,238 @@
   "exclude_near_duplicates": false,
   "export": {
     "path": "lemma-proofs.jsonl",
-    "sha256": "f205b3cd32b0175a32bc429cdc0749e344e84ec321bc1f21890936a869e9d181"
+    "sha256": "6e6f9d481166972de38c7c1ff165a9c61db039061f3601fda54615a7f8298afc"
   },
   "format": "lemma-benchmark-export-v1",
   "license_filter": null,
   "limit": null,
   "mathlib_revs": {
-    "5450b53e5ddc": 12,
-    "5450b53e5ddc75d46418fabb605edbf36bd0beb6": 6
+    "5450b53e5ddc75d46418fabb605edbf36bd0beb6": 72
   },
   "rewarded_only": false,
-  "row_count": 18,
+  "row_count": 72,
   "schema_version": 1,
   "source_files": [
     {
       "path": "epoch-000001.jsonl",
       "rows": 1,
-      "sha256": "8701c945565a6b0ae7ab8b8e6dba86c0626de7c7f7a14af2d79421f45e1f475e"
+      "sha256": "e2438c1c3badacd4a4ab6da86c8a88d048cf24fb88681954cf4dbf9d9779223d"
     },
     {
       "path": "epoch-000002.jsonl",
       "rows": 1,
-      "sha256": "35e1727ff53faf4b56c8779ba9a21aaa88fdeb09a3c6c8cd91229cf7067999a4"
+      "sha256": "c792d56671178eb6e0350f37d6fce52cab17140aae34b103f2f96a9f4acbae47"
     },
     {
       "path": "epoch-000003.jsonl",
       "rows": 1,
-      "sha256": "96520892426daa845b083793be0304460c45e4819efcd312c6203386e8f99c9e"
+      "sha256": "d7c931789393f91b9c966eca73189ed951a1882ac8d72cf3d6f8341a12762cd0"
     },
     {
       "path": "epoch-000004.jsonl",
-      "rows": 1,
-      "sha256": "017be0c1c366caca141aa6dfd32d463b84b290fa772562b8a24427643c6023c1"
+      "rows": 2,
+      "sha256": "0a8e71c87d6d1d233f099c0d1a3c0bac3e391dbc3eefa88cecec12bb56d7f9f4"
     },
     {
       "path": "epoch-000005.jsonl",
-      "rows": 1,
-      "sha256": "bf870a0ed39194c83187120ce581d5b1d2b70e7cc2491e236d7a5b524f2a7bb4"
+      "rows": 2,
+      "sha256": "092e63bbbb1198d3604faafe1d124c0759313ba2092de3c0247557c2e85a4a31"
     },
     {
       "path": "epoch-000006.jsonl",
-      "rows": 1,
-      "sha256": "bdf91948f4d024f3511f5b6697b7c72f4a2b0cc8e7a58f11a0af89ce8a82a19d"
+      "rows": 2,
+      "sha256": "13d5bb4fe76abe3af9b45bc16533b964ff1b9951b716e096c2515ae36c665b7e"
     },
     {
       "path": "epoch-000007.jsonl",
-      "rows": 6,
-      "sha256": "2b755e0b9c30203c8192a0308949a6cdbc91b2dc0f96293370e6ef77dc7d3f9c"
+      "rows": 1,
+      "sha256": "2e705f0b995aa07ab830cff80edfca4ae5e2afc517b96bbf5ca1da56db44fe39"
     },
     {
       "path": "epoch-000008.jsonl",
-      "rows": 6,
-      "sha256": "036161554ce265bd71b99d77b9422a85321784b4b09fe059ced5a643de0675f2"
+      "rows": 1,
+      "sha256": "a25ac55f27a9ea7bf2b6c2ca9e5481567d06141291bb16ba45d4e261362e4dbe"
+    },
+    {
+      "path": "epoch-000009.jsonl",
+      "rows": 2,
+      "sha256": "11b8246eb6cac5a6c48fc62f33a8af2b1e43e31a7cddcba0f561d2d39678c3d0"
+    },
+    {
+      "path": "epoch-000010.jsonl",
+      "rows": 2,
+      "sha256": "3d39161cc78cae2034167bba75343ffa03da00a626812a8ab6bf9e9851b41b9f"
+    },
+    {
+      "path": "epoch-000011.jsonl",
+      "rows": 2,
+      "sha256": "5c156272a84fc232cf348054c7abb18ef8532b04a4b14ceb12b49b6627c9fa62"
+    },
+    {
+      "path": "epoch-000012.jsonl",
+      "rows": 2,
+      "sha256": "e24dd592241a745581a54fc10870512ee2d37957a0df9a879b828c357c0e6cb9"
+    },
+    {
+      "path": "epoch-000013.jsonl",
+      "rows": 2,
+      "sha256": "3288fd95bcc353f826ce6bc6dce74a47ce626c9b4be414891982b6c328ee9b61"
+    },
+    {
+      "path": "epoch-000014.jsonl",
+      "rows": 2,
+      "sha256": "64928c3c4762dea96492e410d0bd464d348f1a7353e0b4be6daff841e0912f0f"
+    },
+    {
+      "path": "epoch-000015.jsonl",
+      "rows": 1,
+      "sha256": "6879b7928aa12b2fafcbc83e903afd27c4be08a2e315eb9e2b7e0beddb575d9e"
+    },
+    {
+      "path": "epoch-000016.jsonl",
+      "rows": 1,
+      "sha256": "a052f56130c03583d8199e317c29398b925360197205634292fbf52f48994946"
+    },
+    {
+      "path": "epoch-000017.jsonl",
+      "rows": 2,
+      "sha256": "5a893d9af43ebe2c0bf344bf072e24b46086152746843f6fd8ab38d548ef3b7b"
+    },
+    {
+      "path": "epoch-000018.jsonl",
+      "rows": 2,
+      "sha256": "e960f93fa11e105030614b55f895ab4398e20250cf7fc0a327b88a9f2debd166"
+    },
+    {
+      "path": "epoch-000019.jsonl",
+      "rows": 3,
+      "sha256": "173539cb3b83456ebe77f6b8bdaf10d5049c1bf46b002c8e0ac72e23098b6484"
+    },
+    {
+      "path": "epoch-000020.jsonl",
+      "rows": 3,
+      "sha256": "841eaf57b03eb950b629432a1e29fec585d358b2628e089c754c9ac991469f7e"
+    },
+    {
+      "path": "epoch-000021.jsonl",
+      "rows": 2,
+      "sha256": "8a35abd2166de1da7ff230ad93e6a0577c49c961937ea59f8723df1fe45621a5"
+    },
+    {
+      "path": "epoch-000022.jsonl",
+      "rows": 2,
+      "sha256": "6f4041f8916aa739f89b0b5b4a8212d537d9013d5f8d6047dccd6292bc627375"
+    },
+    {
+      "path": "epoch-000023.jsonl",
+      "rows": 1,
+      "sha256": "5606f86a8789c8ee8a21f538c07ca0884ec988b2d1ecfc6f3730c52a85b01b20"
+    },
+    {
+      "path": "epoch-000024.jsonl",
+      "rows": 1,
+      "sha256": "0bac5a9716e0d122cefdec046ec6dec6a9296f1cf915aacebe507bbcf4fc0318"
+    },
+    {
+      "path": "epoch-000025.jsonl",
+      "rows": 1,
+      "sha256": "ce29b41d4d2932dc06868ed14d1c2813f05688d3e676cf8e6fd29503b352068f"
+    },
+    {
+      "path": "epoch-000026.jsonl",
+      "rows": 1,
+      "sha256": "d0ae51dd250e94a2ec717cae4f4c4716e852b2c4f47aaa37244c5dfc5932426b"
+    },
+    {
+      "path": "epoch-000027.jsonl",
+      "rows": 2,
+      "sha256": "5bb88bc9de4e5bef6e7eca90cecacfde02721cba36a704b0e880dafe69de54a1"
+    },
+    {
+      "path": "epoch-000028.jsonl",
+      "rows": 3,
+      "sha256": "e144bf32e8787b4e811fdea1f9087af7a542959bac8938e9bc9fb0ceecc62572"
+    },
+    {
+      "path": "epoch-000029.jsonl",
+      "rows": 2,
+      "sha256": "7b4cfc949267ecaca10fd3aa3b66f04b6b5fd150d2fa7d2b90150ec8b861c2a6"
+    },
+    {
+      "path": "epoch-000030.jsonl",
+      "rows": 2,
+      "sha256": "41573118db1a25c0fca320b1253e90c2436e4028f42861f99a13c856845a8b93"
+    },
+    {
+      "path": "epoch-000031.jsonl",
+      "rows": 5,
+      "sha256": "d347f572f950a4775717304e975d61b7eacbfc76e79883f48637219fdda55d00"
+    },
+    {
+      "path": "epoch-000032.jsonl",
+      "rows": 2,
+      "sha256": "f86423765006b3a1214c6d7ff7f01a7999e4bf5d5dae0af7393192e729b556dc"
+    },
+    {
+      "path": "epoch-000033.jsonl",
+      "rows": 1,
+      "sha256": "6bebf157aca262df62b0ae81d2c76c10be9708b9c7f6337abb5e41c07ec9ad63"
+    },
+    {
+      "path": "epoch-000034.jsonl",
+      "rows": 3,
+      "sha256": "c3f3d58d4f36e667347b5da536ea129d054847c344745fe1d24044c7fe4aebfe"
+    },
+    {
+      "path": "epoch-000035.jsonl",
+      "rows": 1,
+      "sha256": "812620ec4b07adb140c376114e7d64052e660190baa9c1ff4b87d22bf6a3f5bd"
+    },
+    {
+      "path": "epoch-000036.jsonl",
+      "rows": 1,
+      "sha256": "42fa3f27f009a107267e3aa806cf6a56cc9c17759564d835bf38d1e2b453c792"
+    },
+    {
+      "path": "epoch-000037.jsonl",
+      "rows": 1,
+      "sha256": "3b92c28e646f8eb305dcdb7c63d69525b7d3a08246a735ea5348a75a1980ce5f"
+    },
+    {
+      "path": "epoch-000038.jsonl",
+      "rows": 1,
+      "sha256": "eaf31767ae50bbf6c5b5244024a7f3e13374eb480e07a888f2b9a78ec49f4311"
+    },
+    {
+      "path": "epoch-000040.jsonl",
+      "rows": 1,
+      "sha256": "59df469d19ac450c02e26c22cb45196bbda5ae8fc0caecae9a8b344fe022ddfa"
+    },
+    {
+      "path": "epoch-000042.jsonl",
+      "rows": 1,
+      "sha256": "574d746437d5efd499c42e0ea203ef5b33134bf18cc086280a37c33ca934e602"
+    },
+    {
+      "path": "epoch-000043.jsonl",
+      "rows": 1,
+      "sha256": "2fdb6b6350f8ea16a4c30d371e9ef789e9c8d0ce0cfe782d6381665b077528c2"
+    },
+    {
+      "path": "epoch-000044.jsonl",
+      "rows": 1,
+      "sha256": "7a7c66a66c9704ed77001895ee25640a02ee7e9e31c51f0b1483644d831081dc"
+    },
+    {
+      "path": "epoch-000045.jsonl",
+      "rows": 1,
+      "sha256": "6d120632c81baafbb7559d2517233b413f815ac47fd2279473d5cbf7a589990e"
     }
   ],
   "source_streams": {
-    "generated": 12,
-    "mathlib_snapshot": 6
+    "mathlib_snapshot": 63,
+    "procedural": 9
   },
-  "updated_at": "2026-05-23T06:44:32Z",
+  "updated_at": "2026-05-23T11:23:42Z",
   "useful_only": false
 }
