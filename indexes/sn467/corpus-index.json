@@ -294,9 +294,19 @@
       "path": "epoch-000059.jsonl",
       "rows": 1,
       "sha256": "b1fd82f38265c140062baa57dcd1d767e4546db24d0e995579ced6c6dbc45e3d"
+    },
+    {
+      "path": "epoch-000060.jsonl",
+      "rows": 1,
+      "sha256": "bdc129a443f7925ac7c55f0c07da9f13363ebc4acca619587d8ee1d4f6dc5438"
+    },
+    {
+      "path": "epoch-000061.jsonl",
+      "rows": 1,
+      "sha256": "89aaaf3e98356afa06e1e19fd1fc4a2be65c46025ee089f4c045ea62c44984d9"
     }
   ],
-  "row_count": 88,
+  "row_count": 90,
   "schema_version": 1,
-  "updated_at": "2026-05-24T07:11:51Z"
+  "updated_at": "2026-05-24T08:30:58Z"
 }
