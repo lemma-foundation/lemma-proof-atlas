@@ -1,0 +1,1 @@
+{"action":"halt_frontier_and_request_variants","active_K":6,"ema_solve_rate":0.68071399424,"frontier_depth":4,"kind":"curriculum_tempo_state","netuid":"sn467","parked_task_ids":[],"resolver":"hippius-s3-arion","schema_version":1,"solved_slots":0,"tempo":19982,"variant_stream_requested":true}
