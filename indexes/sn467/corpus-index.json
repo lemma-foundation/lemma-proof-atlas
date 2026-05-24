@@ -254,9 +254,24 @@
       "path": "epoch-000051.jsonl",
       "rows": 1,
       "sha256": "9be35f814048d8854c8fa37a3876b4556980a7c890fdc4512ad1f0a0cc10d667"
+    },
+    {
+      "path": "epoch-000052.jsonl",
+      "rows": 1,
+      "sha256": "c386d22e89baad8bd70c87a95d543913f6e0f8f7ed56672e6b820e30f4d0f094"
+    },
+    {
+      "path": "epoch-000053.jsonl",
+      "rows": 1,
+      "sha256": "ee99e3010604c1e6a0b8a043101b4a8d243f72fdd474ce6ed22b3d60bc890014"
+    },
+    {
+      "path": "epoch-000054.jsonl",
+      "rows": 1,
+      "sha256": "8049214c11518527954e12ef9a603d4c2f49b6807330e099e4b2f3fdcd4993a2"
     }
   ],
-  "row_count": 80,
+  "row_count": 83,
   "schema_version": 1,
-  "updated_at": "2026-05-23T21:37:38Z"
+  "updated_at": "2026-05-24T01:13:19Z"
 }
