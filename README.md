@@ -19,7 +19,7 @@ exports/sn467/      compact downstream dataset exports
 - netuid: `467`
 - active K: `10`
 - latest real-task registry: `registries/sn467/67d4c6e92cb23865f7097722013df79274aed0082e15fcc66f4bc5aff61c3e0c.json`
-- corpus rows: `183`
+- corpus rows: `189`
 - real Mathlib rows: `6` in `corpus/sn467/epoch-000008.jsonl`
 - weights written: `true` for `epoch-000005.jsonl`, `epoch-000006.jsonl`, and `epoch-000007.jsonl`
 
