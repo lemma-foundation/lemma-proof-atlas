@@ -424,9 +424,14 @@
       "path": "epoch-000085.jsonl",
       "rows": 6,
       "sha256": "49866e800823c04e05603d591bd1eb99e8f2887249457fec59bbeef8844e0153"
+    },
+    {
+      "path": "epoch-000086.jsonl",
+      "rows": 5,
+      "sha256": "cc379317a4ee72578290493b4ddc6b4248e7e88ddeffc05db508c003034dc0f4"
     }
   ],
-  "row_count": 217,
+  "row_count": 222,
   "schema_version": 1,
-  "updated_at": "2026-05-25T16:48:05Z"
+  "updated_at": "2026-05-25T18:00:07Z"
 }

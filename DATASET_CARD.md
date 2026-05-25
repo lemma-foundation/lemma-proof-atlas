@@ -6,11 +6,11 @@ Lemma Corpus SN467 smoke and real-task artifacts.
 
 ## Contents
 
-The checked-in artifact set contains 217 accepted Lean proof rows, pinned registries used to select active K-windows, one proof-erased Mathlib snapshot, and compact JSONL exports for downstream inspection.
+The checked-in artifact set contains 222 accepted Lean proof rows, pinned registries used to select active K-windows, one proof-erased Mathlib snapshot, and compact JSONL exports for downstream inspection.
 
 ## Verification
 
-The validator accepted all 217 proofs with the pinned Lean verifier. Schema validation passed before export. The fifth, sixth, and seventh epoch files came from weights-enabled SN467 testnet passes. The eighth epoch contains six real Mathlib-derived theorem tasks accepted in a no-chain validation pass.
+The validator accepted all 222 proofs with the pinned Lean verifier. Schema validation passed before export. The fifth, sixth, and seventh epoch files came from weights-enabled SN467 testnet passes. The eighth epoch contains six real Mathlib-derived theorem tasks accepted in a no-chain validation pass.
 
 ## Privacy Boundary
 
