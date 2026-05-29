@@ -187,8 +187,8 @@
     },
     {
       "path": "epoch-000038.jsonl",
-      "rows": 1,
-      "sha256": "eaf31767ae50bbf6c5b5244024a7f3e13374eb480e07a888f2b9a78ec49f4311"
+      "rows": 5,
+      "sha256": "f8dfc54a2c28920179baf3480565d1ae15945a1748674ca4704660cce0d62f43"
     },
     {
       "path": "epoch-000039.jsonl",
@@ -461,7 +461,7 @@
       "sha256": "0112c56a4bf57c1f39737d763039f484b776d8b056f7aaf2e9a68bbd6d20147f"
     }
   ],
-  "row_count": 340,
+  "row_count": 344,
   "schema_version": 1,
-  "updated_at": "2026-05-29T04:47:54Z"
+  "updated_at": "2026-05-29T05:59:54Z"
 }
