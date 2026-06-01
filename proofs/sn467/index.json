@@ -2,193 +2,193 @@
   "files": [
     {
       "path": "epoch-000001.jsonl",
-      "rows": 6,
-      "sha256": "b968585e31745a6558c30348f56c8e6c8921dc00d132936e8422d8d3deaf3d65"
+      "rows": 1,
+      "sha256": "e2438c1c3badacd4a4ab6da86c8a88d048cf24fb88681954cf4dbf9d9779223d"
     },
     {
       "path": "epoch-000002.jsonl",
-      "rows": 6,
-      "sha256": "642dfdee742177ef8b8456a7baed79077c0b1aa1764c8399e2b7cd2749119239"
+      "rows": 1,
+      "sha256": "c792d56671178eb6e0350f37d6fce52cab17140aae34b103f2f96a9f4acbae47"
     },
     {
       "path": "epoch-000003.jsonl",
-      "rows": 6,
-      "sha256": "7ec4efd8b417959d58e911b087bd9f2c416a7d6dcf8dd54e2e5f07522a37b9e7"
+      "rows": 1,
+      "sha256": "d7c931789393f91b9c966eca73189ed951a1882ac8d72cf3d6f8341a12762cd0"
     },
     {
       "path": "epoch-000004.jsonl",
-      "rows": 6,
-      "sha256": "6de9a919ec85def626cd733d632f551f7e6712b2e7dd28021849c32cc82a679f"
+      "rows": 2,
+      "sha256": "0a8e71c87d6d1d233f099c0d1a3c0bac3e391dbc3eefa88cecec12bb56d7f9f4"
     },
     {
       "path": "epoch-000005.jsonl",
-      "rows": 6,
-      "sha256": "ebd65fd0ea6dda0416bf2072c979d48e1e81d31a6e1ea9775ccfd61503d7bb58"
+      "rows": 2,
+      "sha256": "092e63bbbb1198d3604faafe1d124c0759313ba2092de3c0247557c2e85a4a31"
     },
     {
       "path": "epoch-000006.jsonl",
-      "rows": 6,
-      "sha256": "5e5281f9bd0fb40042e8d568d20c56ad6970f4e0c465f86e38daa78aef1133a5"
+      "rows": 2,
+      "sha256": "13d5bb4fe76abe3af9b45bc16533b964ff1b9951b716e096c2515ae36c665b7e"
     },
     {
       "path": "epoch-000007.jsonl",
-      "rows": 6,
-      "sha256": "59cb89958a838b27088b4c6a33410241e892596961583bcd697aa4a048a10f18"
+      "rows": 1,
+      "sha256": "2e705f0b995aa07ab830cff80edfca4ae5e2afc517b96bbf5ca1da56db44fe39"
     },
     {
       "path": "epoch-000008.jsonl",
-      "rows": 6,
-      "sha256": "3ee64df010239f457f630adde559d63362fb90071e7ff154503f78869d75761b"
+      "rows": 1,
+      "sha256": "a25ac55f27a9ea7bf2b6c2ca9e5481567d06141291bb16ba45d4e261362e4dbe"
     },
     {
       "path": "epoch-000009.jsonl",
-      "rows": 6,
-      "sha256": "4f2c40d2d0ff10f9bfd5c619ce11c852d1c10434dfa3c6e164dbf45d8345860f"
+      "rows": 2,
+      "sha256": "11b8246eb6cac5a6c48fc62f33a8af2b1e43e31a7cddcba0f561d2d39678c3d0"
     },
     {
       "path": "epoch-000010.jsonl",
-      "rows": 6,
-      "sha256": "af7b37c9bc0e4b045ceba50b9abc66598512ce97e11842318c8473d0fa133367"
+      "rows": 2,
+      "sha256": "3d39161cc78cae2034167bba75343ffa03da00a626812a8ab6bf9e9851b41b9f"
     },
     {
       "path": "epoch-000011.jsonl",
-      "rows": 6,
-      "sha256": "6624a6952b99494bd4d25f4e06e6edf4f3fd974f41598b5ef804bd15dfc90b53"
+      "rows": 2,
+      "sha256": "5c156272a84fc232cf348054c7abb18ef8532b04a4b14ceb12b49b6627c9fa62"
     },
     {
       "path": "epoch-000012.jsonl",
-      "rows": 5,
-      "sha256": "8a0bbb148ab2c2d3fa7f2fcb4d0544157aafb67f8ab67d46639af875f8faeb53"
+      "rows": 2,
+      "sha256": "e24dd592241a745581a54fc10870512ee2d37957a0df9a879b828c357c0e6cb9"
     },
     {
       "path": "epoch-000013.jsonl",
-      "rows": 6,
-      "sha256": "0d42c24844c067678fc21d1ad0afc7c50f76be1ab1faa07b1a72fed5ad237b3c"
+      "rows": 2,
+      "sha256": "3288fd95bcc353f826ce6bc6dce74a47ce626c9b4be414891982b6c328ee9b61"
     },
     {
       "path": "epoch-000014.jsonl",
-      "rows": 1,
-      "sha256": "d40c56b7eccc27f7a79411a11be4735c1c085040656bf55ab90a943bcf1802f6"
+      "rows": 2,
+      "sha256": "64928c3c4762dea96492e410d0bd464d348f1a7353e0b4be6daff841e0912f0f"
     },
     {
       "path": "epoch-000015.jsonl",
-      "rows": 2,
-      "sha256": "5e146f95d4db4e54bfda70590eda2213c767c93f2b8e7ae7b8bde8f180f19091"
+      "rows": 1,
+      "sha256": "6879b7928aa12b2fafcbc83e903afd27c4be08a2e315eb9e2b7e0beddb575d9e"
     },
     {
       "path": "epoch-000016.jsonl",
       "rows": 1,
-      "sha256": "4610cfb682eced5a1a789546e4cda7168ec1ab1cb361093eac6de54c94377cd8"
+      "sha256": "a052f56130c03583d8199e317c29398b925360197205634292fbf52f48994946"
     },
     {
       "path": "epoch-000017.jsonl",
-      "rows": 1,
-      "sha256": "813a3f6bca46eff9720c39b83f40ffcd34fb255b851b6aaf6f460518182e4cb9"
+      "rows": 2,
+      "sha256": "5a893d9af43ebe2c0bf344bf072e24b46086152746843f6fd8ab38d548ef3b7b"
     },
     {
       "path": "epoch-000018.jsonl",
-      "rows": 1,
-      "sha256": "74ac7098e7b05b82832a79a43c77f2d2129242bc0e55c4fe3a0da0acbc55d6ef"
+      "rows": 2,
+      "sha256": "e960f93fa11e105030614b55f895ab4398e20250cf7fc0a327b88a9f2debd166"
     },
     {
       "path": "epoch-000019.jsonl",
-      "rows": 1,
-      "sha256": "96d1cedfb858ee3f0977384d21e17fab2ac15b081a8615e42edfc7af427dc17b"
+      "rows": 3,
+      "sha256": "173539cb3b83456ebe77f6b8bdaf10d5049c1bf46b002c8e0ac72e23098b6484"
     },
     {
       "path": "epoch-000020.jsonl",
-      "rows": 6,
-      "sha256": "0f05281f26f122292d59719335740561b3a59b096368c7f5c19c6aa5097a2a47"
+      "rows": 3,
+      "sha256": "841eaf57b03eb950b629432a1e29fec585d358b2628e089c754c9ac991469f7e"
     },
     {
       "path": "epoch-000021.jsonl",
-      "rows": 1,
-      "sha256": "eb0dcbaf255990191290538c27fcb4fbe147489906c07b02c81676688cbcb9c3"
+      "rows": 2,
+      "sha256": "8a35abd2166de1da7ff230ad93e6a0577c49c961937ea59f8723df1fe45621a5"
     },
     {
       "path": "epoch-000022.jsonl",
       "rows": 2,
-      "sha256": "ccb81aeb379fde8672d3a8f5d4122873e58def1417c75f91218f68b7d678c964"
+      "sha256": "6f4041f8916aa739f89b0b5b4a8212d537d9013d5f8d6047dccd6292bc627375"
     },
     {
       "path": "epoch-000023.jsonl",
-      "rows": 3,
-      "sha256": "a0cf541c38704a4a04abd8adc4b2c2081712680094f73e0c32e4e74701517bf3"
+      "rows": 1,
+      "sha256": "5606f86a8789c8ee8a21f538c07ca0884ec988b2d1ecfc6f3730c52a85b01b20"
     },
     {
       "path": "epoch-000024.jsonl",
       "rows": 1,
-      "sha256": "780ca1022e0794c385344ee5c05055a2e38ca67dc5a7db825b4bc414a437b307"
+      "sha256": "0bac5a9716e0d122cefdec046ec6dec6a9296f1cf915aacebe507bbcf4fc0318"
     },
     {
       "path": "epoch-000025.jsonl",
       "rows": 1,
-      "sha256": "f4271e18262be52db258d9f04b34660074fb26891ff1fb9e4184c561d16e522e"
+      "sha256": "ce29b41d4d2932dc06868ed14d1c2813f05688d3e676cf8e6fd29503b352068f"
     },
     {
       "path": "epoch-000026.jsonl",
-      "rows": 5,
-      "sha256": "326d47884b5ea2022442d0f7b20c4f66a59b15838cf391a47da1465097ffa58c"
+      "rows": 1,
+      "sha256": "d0ae51dd250e94a2ec717cae4f4c4716e852b2c4f47aaa37244c5dfc5932426b"
     },
     {
       "path": "epoch-000027.jsonl",
-      "rows": 1,
-      "sha256": "0c18fdc7540e52a45885ecdac6a3cb4d481e41b4a4606ab11b0fdd520cc696cf"
+      "rows": 2,
+      "sha256": "5bb88bc9de4e5bef6e7eca90cecacfde02721cba36a704b0e880dafe69de54a1"
     },
     {
       "path": "epoch-000028.jsonl",
-      "rows": 5,
-      "sha256": "c3bb2230a84efe0bb241d63b25fe1df607a687c9097c17fbcf4c3ae5c9161457"
+      "rows": 3,
+      "sha256": "e144bf32e8787b4e811fdea1f9087af7a542959bac8938e9bc9fb0ceecc62572"
     },
     {
       "path": "epoch-000029.jsonl",
-      "rows": 7,
-      "sha256": "0b6fde0efb92bea9266de00ff0a56a96091b08e4d5899d5f8809a9bade5a164e"
+      "rows": 2,
+      "sha256": "7b4cfc949267ecaca10fd3aa3b66f04b6b5fd150d2fa7d2b90150ec8b861c2a6"
     },
     {
       "path": "epoch-000030.jsonl",
-      "rows": 4,
-      "sha256": "297e818971e82e1f713eacff299d3c79616ef3279e1184fd07d0361b10caa446"
+      "rows": 2,
+      "sha256": "41573118db1a25c0fca320b1253e90c2436e4028f42861f99a13c856845a8b93"
     },
     {
       "path": "epoch-000031.jsonl",
       "rows": 5,
-      "sha256": "99ccebb1f3204e7dc4e81a1c6c5fb5ca0a2d37d7a91e65702850e9c256ae15d3"
+      "sha256": "d347f572f950a4775717304e975d61b7eacbfc76e79883f48637219fdda55d00"
     },
     {
       "path": "epoch-000032.jsonl",
-      "rows": 3,
-      "sha256": "31153d1dd5dd8a70d489dc1fad9cadc2d666ba3b96c685d7eb526d005df07a7e"
+      "rows": 2,
+      "sha256": "f86423765006b3a1214c6d7ff7f01a7999e4bf5d5dae0af7393192e729b556dc"
     },
     {
       "path": "epoch-000033.jsonl",
-      "rows": 3,
-      "sha256": "304373602ac5975a79d84e8a05fe1a4d507e713a71b05550709d4240247ccdc8"
+      "rows": 1,
+      "sha256": "6bebf157aca262df62b0ae81d2c76c10be9708b9c7f6337abb5e41c07ec9ad63"
     },
     {
       "path": "epoch-000034.jsonl",
-      "rows": 5,
-      "sha256": "9a2626c8dfd11c5c5cef9c7ba840b53b015333cbe6c3b8a775f22f4a6e2790b8"
+      "rows": 3,
+      "sha256": "c3f3d58d4f36e667347b5da536ea129d054847c344745fe1d24044c7fe4aebfe"
     },
     {
       "path": "epoch-000035.jsonl",
-      "rows": 5,
-      "sha256": "431b7cb2d48ef959b0b27bc5f9f168142a2fa1e314d7955acfa9d983e841551d"
+      "rows": 1,
+      "sha256": "812620ec4b07adb140c376114e7d64052e660190baa9c1ff4b87d22bf6a3f5bd"
     },
     {
       "path": "epoch-000036.jsonl",
-      "rows": 5,
-      "sha256": "844be33669e61cc0a2b38eb610648123fe112c10317f4286ccea19837f6a4d20"
+      "rows": 1,
+      "sha256": "42fa3f27f009a107267e3aa806cf6a56cc9c17759564d835bf38d1e2b453c792"
     },
     {
       "path": "epoch-000037.jsonl",
-      "rows": 5,
-      "sha256": "bff5cb56174849c1a1238223c29b9adf59f26c61df632001dd6ae376a9aa038e"
+      "rows": 1,
+      "sha256": "3b92c28e646f8eb305dcdb7c63d69525b7d3a08246a735ea5348a75a1980ce5f"
     },
     {
       "path": "epoch-000038.jsonl",
-      "rows": 5,
-      "sha256": "f8dfc54a2c28920179baf3480565d1ae15945a1748674ca4704660cce0d62f43"
+      "rows": 1,
+      "sha256": "eaf31767ae50bbf6c5b5244024a7f3e13374eb480e07a888f2b9a78ec49f4311"
     },
     {
       "path": "epoch-000039.jsonl",
@@ -461,7 +461,7 @@
       "sha256": "0112c56a4bf57c1f39737d763039f484b776d8b056f7aaf2e9a68bbd6d20147f"
     }
   ],
-  "row_count": 344,
+  "row_count": 255,
   "schema_version": 1,
-  "updated_at": "2026-06-01T14:55:59Z"
+  "updated_at": "2026-06-01T16:22:58Z"
 }
