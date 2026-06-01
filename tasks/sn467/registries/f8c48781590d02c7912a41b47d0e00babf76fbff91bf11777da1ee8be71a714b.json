@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "tasks": [
+    {
+      "activation_status": "paid",
+      "difficulty_band": "medium",
+      "domain_id": "lean",
+      "frontier_depth": 2,
+      "id": "lemma.procedural.d79015f6116b0ca7",
+      "imports": [
+        "Mathlib.Algebra.Ring.SumsOfSquares",
+        "Mathlib.Algebra.Ring.Basic",
+        "Mathlib.Algebra.Ring.Associated"
+      ],
+      "lean_toolchain": "leanprover/lean4:v4.30.0-rc2",
+      "mathlib_rev": "5450b53e5ddc75d46418fabb605edbf36bd0beb6",
+      "metadata": {
+        "activation_status": "paid",
+        "anchor_block": 7183080,
+        "baseline_solved": false,
+        "baseline_solver": null,
+        "canonical_hash": "35e6ac44e8ee086f7eb5e139738b3e9272d3285cf0787771575f8cfea0cea886",
+        "citation_alpha_basis_points": 5000,
+        "citation_weight_cap_micros": 64000000,
+        "citation_window_tempos": 2000,
+        "drand_round": 28905672,
+        "gate_receipt_sha256": "91147d13e248ccf1652d246ef145ac8f798bf5085ab4c032cacd26e69cdaa3f7",
+        "gate_runner": "lean",
+        "gate_version": "lemma-procedural-gates-v3",
+        "generation_seed": "09bd9821a5564d3408e3b5964cbdd235b7574d774fc4d6d76a48c3bb5eae29d9",
+        "kernel_canonical_hash": "35e6ac44e8ee086f7eb5e139738b3e9272d3285cf0787771575f8cfea0cea886",
+        "kernel_canonical_name": "LemmaProceduralGate.kernel_normal_form",
+        "license_state": "clean_open",
+        "mutation_chain": [
+          {
+            "input_hash": "30d2e69660d7f5fe2b8f3783a64d115e6ae45cebd25d9dabe196f5168ab7fc5f",
+            "operator": "strengthen",
+            "output_hash": "a89594c7ed61173405e622c8eccf006c810df4786b2b9a85a9f29be9e2c9a947",
+            "params": {
+              "engine": "lean_ast_elaborator",
+              "peer_source_id": "lemma.mathlib_snapshot.AddMonoidHom.map_mul_iff",
+              "peer_target_sha256": "bff54a7def5ca7ac8381daf379cb82fcf591a61ca9a99b8caf786b07c0f4eac9",
+              "peer_theorem_name": "AddMonoidHom.map_mul_iff",
+              "rule": "conjoin_peer_conclusion"
+            }
+          },
+          {
+            "input_hash": "a89594c7ed61173405e622c8eccf006c810df4786b2b9a85a9f29be9e2c9a947",
+            "operator": "weaken",
+            "output_hash": "ebbed6bb005e1179a84a23cae4422a2cd6ebd751cf2411a2483eb2bb3eda1017",
+            "params": {
+              "engine": "lean_ast_elaborator",
+              "rule": "false_disjunct"
+            }
+          }
+        ],
+        "mutation_depth": 2,
+        "novelty_cache_entries": 1,
+        "novelty_cache_sha256": "1e32c7405aa77f76d3d5a318d9d8882ceff2219062dbdf0d4471f64b49267ccd",
+        "novelty_cache_version": "lemma-novelty-cache-v1",
+        "novelty_status": "passed",
+        "operator_bundle_hash": "f8d88c884199c0ffe47fc0089803a5d38c1bf8b38395162a298a5c65e04592e1",
+        "operator_bundle_version": "lemma-procedural-depth2-v3",
+        "prop_gate_passed": true,
+        "prop_gate_reason": "ok",
+        "slot_weight": 1.785,
+        "slot_weight_basis_points": 1785,
+        "slot_weight_inputs": {
+          "citation_weight": 1.0,
+          "dependency_depth": 2,
+          "direct_dependency_count": 0,
+          "import_breadth": 3,
+          "import_depth": 0,
+          "import_graph_entries": 16,
+          "import_graph_resolved": true,
+          "import_graph_sha256": "8acf594d0f836405445898da44f610f628851b071c10767b3518c35e4025dcb7",
+          "import_graph_version": "lemma-import-graph-v1",
+          "kernel_dependencies_recorded": false,
+          "lemma_rows_used_count": 0,
+          "missing_import_count": 0,
+          "mutation_depth": 2,
+          "transitive_dependency_count": 0,
+          "transitive_dependency_hash": "6e3e6150dc76a5d8a8a1c1ca848d6eec79451502f69b997ccbca27bd41d43383"
+        },
+        "slot_weight_version": "lemma-slot-weight-v3",
+        "source_pool_hash": "180508097fb11c3c12f416833b077bfdd40da9fbbdb54c3e72572a4969d6efe0",
+        "source_pool_receipt_sha256": "bc9f8af90992a8a5ef66e42d66c2c0acecd322124b53d2042636c4195edb2d63",
+        "source_pool_receipt_version": "lemma-source-pool-receipt-v1",
+        "source_pool_source_count": 39,
+        "source_pool_stream_counts": {
+          "mathlib_snapshot": 39
+        },
+        "source_sampling_version": "lemma-source-sampling-v1",
+        "source_target_sha256": "eb42566d17ea35f5b5b85d5e600e20fa035ce9b8bc4c9166cfb1827bbe91bfd5",
+        "source_task_id": "lemma.mathlib_snapshot.IsSumSq.sum",
+        "source_theorem_name": "IsSumSq.sum",
+        "statement_hash": "ca052df529d19f76f33aca18e6dca2b0469d796d38c78c786348b336c9cadb50",
+        "supply_mode": "procedural",
+        "tempo": 19953,
+        "triviality_budget_s": 120,
+        "triviality_budget_version": "lemma-triviality-retarget-v1",
+        "triviality_burn_rate_basis_points": null,
+        "triviality_checked": true,
+        "triviality_reason": "baseline_failed",
+        "triviality_retarget_inputs": {
+          "genesis_budget_s": 120,
+          "high_burn_basis_points": 7000,
+          "latest_settlement_tempo": null,
+          "low_burn_basis_points": 4000,
+          "max_budget_s": 300,
+          "max_step_basis_points": 2500,
+          "min_budget_s": 1,
+          "settlement_count": 0,
+          "settlement_history_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "target_burn_basis_points": 5500,
+          "target_tempo": 19953,
+          "version": "lemma-triviality-retarget-v1",
+          "window_tempos": 8
+        },
+        "triviality_stack": [
+          "trivial",
+          "simp",
+          "simp_all",
+          "omega",
+          "norm_num",
+          "aesop"
+        ],
+        "typecheck_reason": "ok",
+        "typechecked": true
+      },
+      "policy": "restricted_helpers",
+      "queue_depth": 2,
+      "queue_position": 0,
+      "schema_version": 1,
+      "source_license": "Apache-2.0",
+      "source_ref": {
+        "commit": "5450b53e5ddc75d46418fabb605edbf36bd0beb6",
+        "kind": "procedural",
+        "name": "tempo-19953-seq-2",
+        "path": "Mathlib/Algebra/Ring/SumsOfSquares.lean"
+      },
+      "source_stream": "procedural",
+      "statement": "theorem procedural_IsSumSq_sum_d79015f6116b : ((\u2200 {R : Type _} [AddCommMonoid R] [Mul R] {\u03b9 : Type _} {I : Finset \u03b9} {s : \u03b9 \u2192 R} (hs : \u2200 i \u2208 I, IsSumSq (s i)),\n      IsSumSq (\u2211 i \u2208 I, s i)) \u2227\n    (\u2200 {R : Type _} {S : Type _} [NonUnitalNonAssocSemiring R] [NonUnitalNonAssocSemiring S] (f : R \u2192+ S),\n      (\u2200 (x y : R), f (x * y) = f x * f y) \u2194 AddMonoidHom.mul.compr\u2082 f = (AddMonoidHom.mul.comp f).compl\u2082 f)) \u2228\n  False := by\n  sorry",
+      "submission_stub": "import Mathlib.Algebra.Ring.SumsOfSquares\nimport Mathlib.Algebra.Ring.Basic\nimport Mathlib.Algebra.Ring.Associated\n\nnamespace Submission\n\ntheorem procedural_IsSumSq_sum_d79015f6116b : ((\u2200 {R : Type _} [AddCommMonoid R] [Mul R] {\u03b9 : Type _} {I : Finset \u03b9} {s : \u03b9 \u2192 R} (hs : \u2200 i \u2208 I, IsSumSq (s i)),\n      IsSumSq (\u2211 i \u2208 I, s i)) \u2227\n    (\u2200 {R : Type _} {S : Type _} [NonUnitalNonAssocSemiring R] [NonUnitalNonAssocSemiring S] (f : R \u2192+ S),\n      (\u2200 (x y : R), f (x * y) = f x * f y) \u2194 AddMonoidHom.mul.compr\u2082 f = (AddMonoidHom.mul.comp f).compl\u2082 f)) \u2228\n  False := by\n  sorry\n\nend Submission\n",
+      "target_sha256": "e40365232e45cce4c8420d161279ec02dff99d8d17ef9da8dfc7f72514f38eb9",
+      "task_version": 1,
+      "theorem_name": "procedural_IsSumSq_sum_d79015f6116b",
+      "title": "Procedural IsSumSq.sum",
+      "triviality_status": "paid_medium",
+      "type_expr": "((\u2200 {R : Type _} [AddCommMonoid R] [Mul R] {\u03b9 : Type _} {I : Finset \u03b9} {s : \u03b9 \u2192 R} (hs : \u2200 i \u2208 I, IsSumSq (s i)),\n      IsSumSq (\u2211 i \u2208 I, s i)) \u2227\n    (\u2200 {R : Type _} {S : Type _} [NonUnitalNonAssocSemiring R] [NonUnitalNonAssocSemiring S] (f : R \u2192+ S),\n      (\u2200 (x y : R), f (x * y) = f x * f y) \u2194 AddMonoidHom.mul.compr\u2082 f = (AddMonoidHom.mul.comp f).compl\u2082 f)) \u2228\n  False",
+      "verifier_id": "lake-build",
+      "verifier_version": "lemma-lean-v1"
+    }
+  ]
+}

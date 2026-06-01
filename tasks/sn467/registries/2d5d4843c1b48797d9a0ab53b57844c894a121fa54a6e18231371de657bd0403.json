@@ -1,0 +1,375 @@
+{
+  "schema_version": 1,
+  "tasks": [
+    {
+      "activation_status": "paid",
+      "difficulty_band": "easy",
+      "domain_id": "lean",
+      "frontier_depth": 0,
+      "id": "lemma.sn467.true_0",
+      "imports": [
+        "Mathlib"
+      ],
+      "lean_toolchain": "leanprover/lean4:v4.30.0-rc2",
+      "mathlib_rev": "5450b53e5ddc",
+      "metadata": {
+        "baseline_hint": "trivial",
+        "difficulty": "smoke"
+      },
+      "policy": "restricted_helpers",
+      "queue_depth": 0,
+      "queue_position": 0,
+      "schema_version": 1,
+      "source_license": "CC-BY-4.0",
+      "source_ref": {
+        "kind": "dev_seed",
+        "name": "sn467-smoke",
+        "path": "tasks/registry.json"
+      },
+      "source_stream": "generated",
+      "statement": "theorem sn467_true_0 : True := by\n  sorry",
+      "submission_stub": "import Mathlib\n\nnamespace Submission\n\ntheorem sn467_true_0 : True := by\n  sorry\n\nend Submission\n",
+      "target_sha256": "1f498bd5927b01a911fb87bc60bc83d926002e463014838ece67dc8375de0d5f",
+      "task_version": 1,
+      "theorem_name": "sn467_true_0",
+      "title": "SN467 smoke True 0",
+      "triviality_status": "unknown",
+      "type_expr": "True",
+      "verifier_id": "lake-build",
+      "verifier_version": "lemma-lean-v1"
+    },
+    {
+      "activation_status": "paid",
+      "difficulty_band": "easy",
+      "domain_id": "lean",
+      "frontier_depth": 0,
+      "id": "lemma.sn467.true_1",
+      "imports": [
+        "Mathlib"
+      ],
+      "lean_toolchain": "leanprover/lean4:v4.30.0-rc2",
+      "mathlib_rev": "5450b53e5ddc",
+      "metadata": {
+        "baseline_hint": "trivial",
+        "difficulty": "smoke"
+      },
+      "policy": "restricted_helpers",
+      "queue_depth": 0,
+      "queue_position": 1,
+      "schema_version": 1,
+      "source_license": "CC-BY-4.0",
+      "source_ref": {
+        "kind": "dev_seed",
+        "name": "sn467-smoke",
+        "path": "tasks/registry.json"
+      },
+      "source_stream": "generated",
+      "statement": "theorem sn467_true_1 : True := by\n  sorry",
+      "submission_stub": "import Mathlib\n\nnamespace Submission\n\ntheorem sn467_true_1 : True := by\n  sorry\n\nend Submission\n",
+      "target_sha256": "2ce16cecd842f135a0534cdf0b65c47315495447267617acb6e241cda2cfc051",
+      "task_version": 1,
+      "theorem_name": "sn467_true_1",
+      "title": "SN467 smoke True 1",
+      "triviality_status": "unknown",
+      "type_expr": "True",
+      "verifier_id": "lake-build",
+      "verifier_version": "lemma-lean-v1"
+    },
+    {
+      "activation_status": "paid",
+      "difficulty_band": "easy",
+      "domain_id": "lean",
+      "frontier_depth": 0,
+      "id": "lemma.sn467.true_2",
+      "imports": [
+        "Mathlib"
+      ],
+      "lean_toolchain": "leanprover/lean4:v4.30.0-rc2",
+      "mathlib_rev": "5450b53e5ddc",
+      "metadata": {
+        "baseline_hint": "trivial",
+        "difficulty": "smoke"
+      },
+      "policy": "restricted_helpers",
+      "queue_depth": 0,
+      "queue_position": 2,
+      "schema_version": 1,
+      "source_license": "CC-BY-4.0",
+      "source_ref": {
+        "kind": "dev_seed",
+        "name": "sn467-smoke",
+        "path": "tasks/registry.json"
+      },
+      "source_stream": "generated",
+      "statement": "theorem sn467_true_2 : True := by\n  sorry",
+      "submission_stub": "import Mathlib\n\nnamespace Submission\n\ntheorem sn467_true_2 : True := by\n  sorry\n\nend Submission\n",
+      "target_sha256": "186690a5c813bcbbaac7db184f0da24276343220feb413547ea5eb7c7d03711a",
+      "task_version": 1,
+      "theorem_name": "sn467_true_2",
+      "title": "SN467 smoke True 2",
+      "triviality_status": "unknown",
+      "type_expr": "True",
+      "verifier_id": "lake-build",
+      "verifier_version": "lemma-lean-v1"
+    },
+    {
+      "activation_status": "paid",
+      "difficulty_band": "easy",
+      "domain_id": "lean",
+      "frontier_depth": 0,
+      "id": "lemma.sn467.true_3",
+      "imports": [
+        "Mathlib"
+      ],
+      "lean_toolchain": "leanprover/lean4:v4.30.0-rc2",
+      "mathlib_rev": "5450b53e5ddc",
+      "metadata": {
+        "baseline_hint": "trivial",
+        "difficulty": "smoke"
+      },
+      "policy": "restricted_helpers",
+      "queue_depth": 0,
+      "queue_position": 3,
+      "schema_version": 1,
+      "source_license": "CC-BY-4.0",
+      "source_ref": {
+        "kind": "dev_seed",
+        "name": "sn467-smoke",
+        "path": "tasks/registry.json"
+      },
+      "source_stream": "generated",
+      "statement": "theorem sn467_true_3 : True := by\n  sorry",
+      "submission_stub": "import Mathlib\n\nnamespace Submission\n\ntheorem sn467_true_3 : True := by\n  sorry\n\nend Submission\n",
+      "target_sha256": "6a18436908ffb0c647e3370ff38077d498c0277c702286b843eafab4e602074f",
+      "task_version": 1,
+      "theorem_name": "sn467_true_3",
+      "title": "SN467 smoke True 3",
+      "triviality_status": "unknown",
+      "type_expr": "True",
+      "verifier_id": "lake-build",
+      "verifier_version": "lemma-lean-v1"
+    },
+    {
+      "activation_status": "paid",
+      "difficulty_band": "easy",
+      "domain_id": "lean",
+      "frontier_depth": 0,
+      "id": "lemma.sn467.true_4",
+      "imports": [
+        "Mathlib"
+      ],
+      "lean_toolchain": "leanprover/lean4:v4.30.0-rc2",
+      "mathlib_rev": "5450b53e5ddc",
+      "metadata": {
+        "baseline_hint": "trivial",
+        "difficulty": "smoke"
+      },
+      "policy": "restricted_helpers",
+      "queue_depth": 0,
+      "queue_position": 4,
+      "schema_version": 1,
+      "source_license": "CC-BY-4.0",
+      "source_ref": {
+        "kind": "dev_seed",
+        "name": "sn467-smoke",
+        "path": "tasks/registry.json"
+      },
+      "source_stream": "generated",
+      "statement": "theorem sn467_true_4 : True := by\n  sorry",
+      "submission_stub": "import Mathlib\n\nnamespace Submission\n\ntheorem sn467_true_4 : True := by\n  sorry\n\nend Submission\n",
+      "target_sha256": "73403c7d8a1954547d8b76c211fccbcc54e52d465c99f489623f04fe9ce07322",
+      "task_version": 1,
+      "theorem_name": "sn467_true_4",
+      "title": "SN467 smoke True 4",
+      "triviality_status": "unknown",
+      "type_expr": "True",
+      "verifier_id": "lake-build",
+      "verifier_version": "lemma-lean-v1"
+    },
+    {
+      "activation_status": "paid",
+      "difficulty_band": "easy",
+      "domain_id": "lean",
+      "frontier_depth": 0,
+      "id": "lemma.sn467.true_5",
+      "imports": [
+        "Mathlib"
+      ],
+      "lean_toolchain": "leanprover/lean4:v4.30.0-rc2",
+      "mathlib_rev": "5450b53e5ddc",
+      "metadata": {
+        "baseline_hint": "trivial",
+        "difficulty": "smoke"
+      },
+      "policy": "restricted_helpers",
+      "queue_depth": 0,
+      "queue_position": 5,
+      "schema_version": 1,
+      "source_license": "CC-BY-4.0",
+      "source_ref": {
+        "kind": "dev_seed",
+        "name": "sn467-smoke",
+        "path": "tasks/registry.json"
+      },
+      "source_stream": "generated",
+      "statement": "theorem sn467_true_5 : True := by\n  sorry",
+      "submission_stub": "import Mathlib\n\nnamespace Submission\n\ntheorem sn467_true_5 : True := by\n  sorry\n\nend Submission\n",
+      "target_sha256": "21cd4653182fcb53aa14894509d67637caee70311068b9f8cc37b5fa7de7fd07",
+      "task_version": 1,
+      "theorem_name": "sn467_true_5",
+      "title": "SN467 smoke True 5",
+      "triviality_status": "unknown",
+      "type_expr": "True",
+      "verifier_id": "lake-build",
+      "verifier_version": "lemma-lean-v1"
+    },
+    {
+      "activation_status": "paid",
+      "difficulty_band": "easy",
+      "domain_id": "lean",
+      "frontier_depth": 0,
+      "id": "lemma.sn467.true_6",
+      "imports": [
+        "Mathlib"
+      ],
+      "lean_toolchain": "leanprover/lean4:v4.30.0-rc2",
+      "mathlib_rev": "5450b53e5ddc",
+      "metadata": {
+        "baseline_hint": "trivial",
+        "difficulty": "smoke"
+      },
+      "policy": "restricted_helpers",
+      "queue_depth": 0,
+      "queue_position": 6,
+      "schema_version": 1,
+      "source_license": "CC-BY-4.0",
+      "source_ref": {
+        "kind": "dev_seed",
+        "name": "sn467-smoke",
+        "path": "tasks/registry.json"
+      },
+      "source_stream": "generated",
+      "statement": "theorem sn467_true_6 : True := by\n  sorry",
+      "submission_stub": "import Mathlib\n\nnamespace Submission\n\ntheorem sn467_true_6 : True := by\n  sorry\n\nend Submission\n",
+      "target_sha256": "64d2ee347749a54a840a67ef26e2837e9418195a6944c747e1789c8012522029",
+      "task_version": 1,
+      "theorem_name": "sn467_true_6",
+      "title": "SN467 smoke True 6",
+      "triviality_status": "unknown",
+      "type_expr": "True",
+      "verifier_id": "lake-build",
+      "verifier_version": "lemma-lean-v1"
+    },
+    {
+      "activation_status": "paid",
+      "difficulty_band": "easy",
+      "domain_id": "lean",
+      "frontier_depth": 0,
+      "id": "lemma.sn467.true_7",
+      "imports": [
+        "Mathlib"
+      ],
+      "lean_toolchain": "leanprover/lean4:v4.30.0-rc2",
+      "mathlib_rev": "5450b53e5ddc",
+      "metadata": {
+        "baseline_hint": "trivial",
+        "difficulty": "smoke"
+      },
+      "policy": "restricted_helpers",
+      "queue_depth": 0,
+      "queue_position": 7,
+      "schema_version": 1,
+      "source_license": "CC-BY-4.0",
+      "source_ref": {
+        "kind": "dev_seed",
+        "name": "sn467-smoke",
+        "path": "tasks/registry.json"
+      },
+      "source_stream": "generated",
+      "statement": "theorem sn467_true_7 : True := by\n  sorry",
+      "submission_stub": "import Mathlib\n\nnamespace Submission\n\ntheorem sn467_true_7 : True := by\n  sorry\n\nend Submission\n",
+      "target_sha256": "1132546ea972e1e31da9ab8c51eaa99a60311f8146f4caa2828b966fc66262c9",
+      "task_version": 1,
+      "theorem_name": "sn467_true_7",
+      "title": "SN467 smoke True 7",
+      "triviality_status": "unknown",
+      "type_expr": "True",
+      "verifier_id": "lake-build",
+      "verifier_version": "lemma-lean-v1"
+    },
+    {
+      "activation_status": "paid",
+      "difficulty_band": "easy",
+      "domain_id": "lean",
+      "frontier_depth": 0,
+      "id": "lemma.sn467.true_8",
+      "imports": [
+        "Mathlib"
+      ],
+      "lean_toolchain": "leanprover/lean4:v4.30.0-rc2",
+      "mathlib_rev": "5450b53e5ddc",
+      "metadata": {
+        "baseline_hint": "trivial",
+        "difficulty": "smoke"
+      },
+      "policy": "restricted_helpers",
+      "queue_depth": 0,
+      "queue_position": 8,
+      "schema_version": 1,
+      "source_license": "CC-BY-4.0",
+      "source_ref": {
+        "kind": "dev_seed",
+        "name": "sn467-smoke",
+        "path": "tasks/registry.json"
+      },
+      "source_stream": "generated",
+      "statement": "theorem sn467_true_8 : True := by\n  sorry",
+      "submission_stub": "import Mathlib\n\nnamespace Submission\n\ntheorem sn467_true_8 : True := by\n  sorry\n\nend Submission\n",
+      "target_sha256": "04cbe9b29e95a09aee686d2b26143ebd37158c212eaf093d2540333768c343c6",
+      "task_version": 1,
+      "theorem_name": "sn467_true_8",
+      "title": "SN467 smoke True 8",
+      "triviality_status": "unknown",
+      "type_expr": "True",
+      "verifier_id": "lake-build",
+      "verifier_version": "lemma-lean-v1"
+    },
+    {
+      "activation_status": "paid",
+      "difficulty_band": "easy",
+      "domain_id": "lean",
+      "frontier_depth": 0,
+      "id": "lemma.sn467.true_9",
+      "imports": [
+        "Mathlib"
+      ],
+      "lean_toolchain": "leanprover/lean4:v4.30.0-rc2",
+      "mathlib_rev": "5450b53e5ddc",
+      "metadata": {
+        "baseline_hint": "trivial",
+        "difficulty": "smoke"
+      },
+      "policy": "restricted_helpers",
+      "queue_depth": 0,
+      "queue_position": 9,
+      "schema_version": 1,
+      "source_license": "CC-BY-4.0",
+      "source_ref": {
+        "kind": "dev_seed",
+        "name": "sn467-smoke",
+        "path": "tasks/registry.json"
+      },
+      "source_stream": "generated",
+      "statement": "theorem sn467_true_9 : True := by\n  sorry",
+      "submission_stub": "import Mathlib\n\nnamespace Submission\n\ntheorem sn467_true_9 : True := by\n  sorry\n\nend Submission\n",
+      "target_sha256": "f051ed9fec9fc8f0737f437323cd579c4385ee9d0b94da4bc42c270406706688",
+      "task_version": 1,
+      "theorem_name": "sn467_true_9",
+      "title": "SN467 smoke True 9",
+      "triviality_status": "unknown",
+      "type_expr": "True",
+      "verifier_id": "lake-build",
+      "verifier_version": "lemma-lean-v1"
+    }
+  ]
+}

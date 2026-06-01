@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "tasks": [
+    {
+      "activation_status": "paid",
+      "difficulty_band": "easy",
+      "domain_id": "lean",
+      "frontier_depth": 2,
+      "id": "lemma.procedural.0c641628535e99dd",
+      "imports": [
+        "Mathlib.Algebra.Ring.Basic",
+        "Mathlib.Algebra.Ring.Associated"
+      ],
+      "lean_toolchain": "leanprover/lean4:v4.30.0-rc2",
+      "mathlib_rev": "5450b53e5ddc75d46418fabb605edbf36bd0beb6",
+      "metadata": {
+        "activation_status": "paid",
+        "anchor_block": 7185600,
+        "baseline_solved": false,
+        "baseline_solver": null,
+        "canonical_hash": "6f39636b3b51cdf409ad3479886e13ae860753f66bfd0ac9056027a759a8abe2",
+        "citation_alpha_basis_points": 5000,
+        "citation_weight_cap_micros": 64000000,
+        "citation_window_tempos": 2000,
+        "drand_round": 28915752,
+        "gate_receipt_sha256": "bd990506f62f88776d8e66ddd21b6f77d138ac924d087e2e98127a2b121a0bba",
+        "gate_runner": "lean",
+        "gate_version": "lemma-procedural-gates-v3",
+        "generation_seed": "7cd15c395e428336af5bf09c57ad2a6b9b55e3ab1e08a6e743f0938737c9b216",
+        "kernel_canonical_hash": "6f39636b3b51cdf409ad3479886e13ae860753f66bfd0ac9056027a759a8abe2",
+        "kernel_canonical_name": "LemmaProceduralGate.kernel_normal_form",
+        "license_state": "clean_open",
+        "mutation_chain": [
+          {
+            "input_hash": "9c6be189b109126b7b2503fd2b7cfdb891c44f75137d5cf088d1517734627606",
+            "operator": "substitute-type",
+            "output_hash": "e67e6a5fe68ba9ee2a1cfbe3c60f9f848f51d69242e7b21a36111d771a91d241",
+            "params": {
+              "engine": "lean_ast_elaborator",
+              "fallback": "no_supported_type_occurrence"
+            }
+          },
+          {
+            "input_hash": "e67e6a5fe68ba9ee2a1cfbe3c60f9f848f51d69242e7b21a36111d771a91d241",
+            "operator": "generalize",
+            "output_hash": "d3939ba2b7c041cea79e78fcad77edce27b97c949e72d2e6e6eea54d919d94a0",
+            "params": {
+              "binder": "lemma_p1_p4c70ed",
+              "binder_type": "Prop",
+              "engine": "lean_ast_elaborator",
+              "target": "fresh_prop_hypothesis"
+            }
+          }
+        ],
+        "mutation_depth": 2,
+        "novelty_cache_entries": 1,
+        "novelty_cache_sha256": "1e32c7405aa77f76d3d5a318d9d8882ceff2219062dbdf0d4471f64b49267ccd",
+        "novelty_cache_version": "lemma-novelty-cache-v1",
+        "novelty_status": "passed",
+        "operator_bundle_hash": "f8d88c884199c0ffe47fc0089803a5d38c1bf8b38395162a298a5c65e04592e1",
+        "operator_bundle_version": "lemma-procedural-depth2-v3",
+        "prop_gate_passed": true,
+        "prop_gate_reason": "ok",
+        "slot_weight": 1.61,
+        "slot_weight_basis_points": 1610,
+        "slot_weight_inputs": {
+          "citation_weight": 1.0,
+          "dependency_depth": 1,
+          "direct_dependency_count": 0,
+          "import_breadth": 2,
+          "import_depth": 0,
+          "import_graph_entries": 16,
+          "import_graph_resolved": true,
+          "import_graph_sha256": "8acf594d0f836405445898da44f610f628851b071c10767b3518c35e4025dcb7",
+          "import_graph_version": "lemma-import-graph-v1",
+          "kernel_dependencies_recorded": false,
+          "lemma_rows_used_count": 0,
+          "missing_import_count": 0,
+          "mutation_depth": 2,
+          "transitive_dependency_count": 0,
+          "transitive_dependency_hash": "30fa491c5fe137ce66955d51a07951eb36242dda467114227bc18e920d7d535e"
+        },
+        "slot_weight_version": "lemma-slot-weight-v3",
+        "source_pool_hash": "180508097fb11c3c12f416833b077bfdd40da9fbbdb54c3e72572a4969d6efe0",
+        "source_pool_receipt_sha256": "bc9f8af90992a8a5ef66e42d66c2c0acecd322124b53d2042636c4195edb2d63",
+        "source_pool_receipt_version": "lemma-source-pool-receipt-v1",
+        "source_pool_source_count": 39,
+        "source_pool_stream_counts": {
+          "mathlib_snapshot": 39
+        },
+        "source_sampling_version": "lemma-source-sampling-v1",
+        "source_target_sha256": "46fda61b5bf684067dbb79be6cc3ccf82f05b6915d0599f1fde4d3c80a1264dc",
+        "source_task_id": "lemma.mathlib_snapshot.noZeroDivisors_tfae",
+        "source_theorem_name": "noZeroDivisors_tfae",
+        "statement_hash": "2a6e09dff4055e8a8ab2eb58a78293cf38f22fc6cf802ba254de5f949863d3bf",
+        "supply_mode": "procedural",
+        "tempo": 19960,
+        "triviality_budget_s": 120,
+        "triviality_budget_version": "lemma-triviality-retarget-v1",
+        "triviality_burn_rate_basis_points": null,
+        "triviality_checked": true,
+        "triviality_reason": "baseline_failed",
+        "triviality_retarget_inputs": {
+          "genesis_budget_s": 120,
+          "high_burn_basis_points": 7000,
+          "latest_settlement_tempo": null,
+          "low_burn_basis_points": 4000,
+          "max_budget_s": 300,
+          "max_step_basis_points": 2500,
+          "min_budget_s": 1,
+          "settlement_count": 0,
+          "settlement_history_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "target_burn_basis_points": 5500,
+          "target_tempo": 19960,
+          "version": "lemma-triviality-retarget-v1",
+          "window_tempos": 8
+        },
+        "triviality_stack": [
+          "trivial",
+          "simp",
+          "simp_all",
+          "omega",
+          "norm_num",
+          "aesop"
+        ],
+        "typecheck_reason": "ok",
+        "typechecked": true
+      },
+      "policy": "restricted_helpers",
+      "queue_depth": 1,
+      "queue_position": 0,
+      "schema_version": 1,
+      "source_license": "Apache-2.0",
+      "source_ref": {
+        "commit": "5450b53e5ddc75d46418fabb605edbf36bd0beb6",
+        "kind": "procedural",
+        "name": "tempo-19960-seq-2",
+        "path": "Mathlib/Algebra/Ring/Basic.lean"
+      },
+      "source_stream": "procedural",
+      "statement": "theorem procedural_noZeroDivisors_tfae_0c641628535e : \u2200 lemma_p1_p4c70ed : Prop,\n  lemma_p1_p4c70ed \u2192\n    (True \u2192\n      (\u2200 {R : Type _} [NonUnitalNonAssocRing R],\n        [NoZeroDivisors R, IsLeftCancelMulZero R, IsRightCancelMulZero R, IsCancelMulZero R].TFAE)) := by\n  sorry",
+      "submission_stub": "import Mathlib.Algebra.Ring.Basic\nimport Mathlib.Algebra.Ring.Associated\n\nnamespace Submission\n\ntheorem procedural_noZeroDivisors_tfae_0c641628535e : \u2200 lemma_p1_p4c70ed : Prop,\n  lemma_p1_p4c70ed \u2192\n    (True \u2192\n      (\u2200 {R : Type _} [NonUnitalNonAssocRing R],\n        [NoZeroDivisors R, IsLeftCancelMulZero R, IsRightCancelMulZero R, IsCancelMulZero R].TFAE)) := by\n  sorry\n\nend Submission\n",
+      "target_sha256": "7a12d67ba4168f02b77fa0831d260147b5580293b2e2260d3f6460285f692003",
+      "task_version": 1,
+      "theorem_name": "procedural_noZeroDivisors_tfae_0c641628535e",
+      "title": "Procedural noZeroDivisors_tfae",
+      "triviality_status": "paid_easy",
+      "type_expr": "\u2200 lemma_p1_p4c70ed : Prop,\n  lemma_p1_p4c70ed \u2192\n    (True \u2192\n      (\u2200 {R : Type _} [NonUnitalNonAssocRing R],\n        [NoZeroDivisors R, IsLeftCancelMulZero R, IsRightCancelMulZero R, IsCancelMulZero R].TFAE))",
+      "verifier_id": "lake-build",
+      "verifier_version": "lemma-lean-v1"
+    }
+  ]
+}

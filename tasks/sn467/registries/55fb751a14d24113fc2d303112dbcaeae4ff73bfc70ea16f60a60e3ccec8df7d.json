@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "tasks": [
+    {
+      "activation_status": "paid",
+      "difficulty_band": "medium",
+      "domain_id": "lean",
+      "frontier_depth": 2,
+      "id": "lemma.procedural.f9ed2b03e4276f38",
+      "imports": [
+        "Mathlib.Data.Finset.Basic",
+        "Mathlib.Algebra.Ring.Basic",
+        "Mathlib.Algebra.Ring.Centralizer"
+      ],
+      "lean_toolchain": "leanprover/lean4:v4.30.0-rc2",
+      "mathlib_rev": "5450b53e5ddc75d46418fabb605edbf36bd0beb6",
+      "metadata": {
+        "activation_status": "paid",
+        "anchor_block": 7185240,
+        "baseline_solved": false,
+        "baseline_solver": null,
+        "canonical_hash": "58e5d27a89c5183d3db3d60e8fd6a4763a98db84ab57879951036ee4bd2eb846",
+        "citation_alpha_basis_points": 5000,
+        "citation_weight_cap_micros": 64000000,
+        "citation_window_tempos": 2000,
+        "drand_round": 28914312,
+        "gate_receipt_sha256": "d1a6760e0c235abfc090f362a35c69e47b510eb9d64e5f1c62ba1efe262a6800",
+        "gate_runner": "lean",
+        "gate_version": "lemma-procedural-gates-v3",
+        "generation_seed": "9435825d866ba62172fc71f43a542ba79c0f10a11b25f5101355d4a720abaf8e",
+        "kernel_canonical_hash": "58e5d27a89c5183d3db3d60e8fd6a4763a98db84ab57879951036ee4bd2eb846",
+        "kernel_canonical_name": "LemmaProceduralGate.kernel_normal_form",
+        "license_state": "clean_open",
+        "mutation_chain": [
+          {
+            "input_hash": "5b818bd5f85081a3f02466333487ea8ff3144945b79116a017cb9db60bcd601c",
+            "operator": "specialize",
+            "output_hash": "753c8248dbe22f7cac8a25e7b7ff9c4425db6124d6fc61e675734acb3f9ce1d4",
+            "params": {
+              "engine": "lean_ast_elaborator",
+              "fallback": "true_premise"
+            }
+          },
+          {
+            "input_hash": "753c8248dbe22f7cac8a25e7b7ff9c4425db6124d6fc61e675734acb3f9ce1d4",
+            "operator": "strengthen",
+            "output_hash": "75e858c4bb9ec6ef5ee92a1a53c32e25a42eb885f1bff1bf7660db19d46680a0",
+            "params": {
+              "engine": "lean_ast_elaborator",
+              "peer_source_id": "lemma.mathlib_snapshot.Set.add_mem_centralizer",
+              "peer_target_sha256": "4cf478440e1284e0675abc0c052b83596810ad827dc4ef42e38b7d73549c9a97",
+              "peer_theorem_name": "Set.add_mem_centralizer",
+              "rule": "conjoin_peer_conclusion"
+            }
+          }
+        ],
+        "mutation_depth": 2,
+        "novelty_cache_entries": 1,
+        "novelty_cache_sha256": "1e32c7405aa77f76d3d5a318d9d8882ceff2219062dbdf0d4471f64b49267ccd",
+        "novelty_cache_version": "lemma-novelty-cache-v1",
+        "novelty_status": "passed",
+        "operator_bundle_hash": "f8d88c884199c0ffe47fc0089803a5d38c1bf8b38395162a298a5c65e04592e1",
+        "operator_bundle_version": "lemma-procedural-depth2-v3",
+        "prop_gate_passed": true,
+        "prop_gate_reason": "ok",
+        "slot_weight": 1.785,
+        "slot_weight_basis_points": 1785,
+        "slot_weight_inputs": {
+          "citation_weight": 1.0,
+          "dependency_depth": 2,
+          "direct_dependency_count": 0,
+          "import_breadth": 3,
+          "import_depth": 0,
+          "import_graph_entries": 16,
+          "import_graph_resolved": true,
+          "import_graph_sha256": "8acf594d0f836405445898da44f610f628851b071c10767b3518c35e4025dcb7",
+          "import_graph_version": "lemma-import-graph-v1",
+          "kernel_dependencies_recorded": false,
+          "lemma_rows_used_count": 0,
+          "missing_import_count": 0,
+          "mutation_depth": 2,
+          "transitive_dependency_count": 0,
+          "transitive_dependency_hash": "c235d3ef62434e0ca104b6b2c490bc8778cdb7ec2655590efe2e4bfb3f63c4d6"
+        },
+        "slot_weight_version": "lemma-slot-weight-v3",
+        "source_pool_hash": "180508097fb11c3c12f416833b077bfdd40da9fbbdb54c3e72572a4969d6efe0",
+        "source_pool_receipt_sha256": "bc9f8af90992a8a5ef66e42d66c2c0acecd322124b53d2042636c4195edb2d63",
+        "source_pool_receipt_version": "lemma-source-pool-receipt-v1",
+        "source_pool_source_count": 39,
+        "source_pool_stream_counts": {
+          "mathlib_snapshot": 39
+        },
+        "source_sampling_version": "lemma-source-sampling-v1",
+        "source_target_sha256": "84a51f88df1afff5ad364664f2b4d9f6e1d91d1b05404108108184a5a8ba11a2",
+        "source_task_id": "lemma.mathlib_snapshot.Finset.disjoint_filter",
+        "source_theorem_name": "Finset.disjoint_filter",
+        "statement_hash": "07b6d5b2e7af31a84d04822cb1c483b622d78a6d47192bde118f16bd3f1b1976",
+        "supply_mode": "procedural",
+        "tempo": 19959,
+        "triviality_budget_s": 120,
+        "triviality_budget_version": "lemma-triviality-retarget-v1",
+        "triviality_burn_rate_basis_points": null,
+        "triviality_checked": true,
+        "triviality_reason": "baseline_failed",
+        "triviality_retarget_inputs": {
+          "genesis_budget_s": 120,
+          "high_burn_basis_points": 7000,
+          "latest_settlement_tempo": null,
+          "low_burn_basis_points": 4000,
+          "max_budget_s": 300,
+          "max_step_basis_points": 2500,
+          "min_budget_s": 1,
+          "settlement_count": 0,
+          "settlement_history_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "target_burn_basis_points": 5500,
+          "target_tempo": 19959,
+          "version": "lemma-triviality-retarget-v1",
+          "window_tempos": 8
+        },
+        "triviality_stack": [
+          "trivial",
+          "simp",
+          "simp_all",
+          "omega",
+          "norm_num",
+          "aesop"
+        ],
+        "typecheck_reason": "ok",
+        "typechecked": true
+      },
+      "policy": "restricted_helpers",
+      "queue_depth": 2,
+      "queue_position": 0,
+      "schema_version": 1,
+      "source_license": "Apache-2.0",
+      "source_ref": {
+        "commit": "5450b53e5ddc75d46418fabb605edbf36bd0beb6",
+        "kind": "procedural",
+        "name": "tempo-19959-seq-0",
+        "path": "Mathlib/Data/Finset/Basic.lean"
+      },
+      "source_stream": "procedural",
+      "statement": "theorem procedural_Finset_disjoint_filter_f9ed2b03e427 : (True \u2192\n    (\u2200 {\u03b1 : Type _} {s : Finset \u03b1} {p q : \u03b1 \u2192 Prop} [DecidablePred p] [DecidablePred q],\n      Disjoint (Finset.filter p s) (Finset.filter q s) \u2194 \u2200 x \u2208 s, p x \u2192 \u00acq x)) \u2227\n  (\u2200 {M : Type _} {S : Set M} {a b : M} [Distrib M] (ha : a \u2208 S.centralizer) (hb : b \u2208 S.centralizer),\n    a + b \u2208 S.centralizer) := by\n  sorry",
+      "submission_stub": "import Mathlib.Data.Finset.Basic\nimport Mathlib.Algebra.Ring.Basic\nimport Mathlib.Algebra.Ring.Centralizer\n\nnamespace Submission\n\ntheorem procedural_Finset_disjoint_filter_f9ed2b03e427 : (True \u2192\n    (\u2200 {\u03b1 : Type _} {s : Finset \u03b1} {p q : \u03b1 \u2192 Prop} [DecidablePred p] [DecidablePred q],\n      Disjoint (Finset.filter p s) (Finset.filter q s) \u2194 \u2200 x \u2208 s, p x \u2192 \u00acq x)) \u2227\n  (\u2200 {M : Type _} {S : Set M} {a b : M} [Distrib M] (ha : a \u2208 S.centralizer) (hb : b \u2208 S.centralizer),\n    a + b \u2208 S.centralizer) := by\n  sorry\n\nend Submission\n",
+      "target_sha256": "1c0a540e61d00e326d43e5b18cd020f9c81f27bd345692059a783f276af1c436",
+      "task_version": 1,
+      "theorem_name": "procedural_Finset_disjoint_filter_f9ed2b03e427",
+      "title": "Procedural Finset.disjoint_filter",
+      "triviality_status": "paid_medium",
+      "type_expr": "(True \u2192\n    (\u2200 {\u03b1 : Type _} {s : Finset \u03b1} {p q : \u03b1 \u2192 Prop} [DecidablePred p] [DecidablePred q],\n      Disjoint (Finset.filter p s) (Finset.filter q s) \u2194 \u2200 x \u2208 s, p x \u2192 \u00acq x)) \u2227\n  (\u2200 {M : Type _} {S : Set M} {a b : M} [Distrib M] (ha : a \u2208 S.centralizer) (hb : b \u2208 S.centralizer),\n    a + b \u2208 S.centralizer)",
+      "verifier_id": "lake-build",
+      "verifier_version": "lemma-lean-v1"
+    }
+  ]
+}
