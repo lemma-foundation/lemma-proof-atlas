@@ -1,4 +1,0 @@
-{"difficulty_lane":"easy","ingredient_filters":{"domains":["List","Nat"]},"recipe_ids":["list_dedup_pair_length_v1"],"selection_method":"hash_order_first_eligible","selector_id":"easy_list_dedup_pair_length_v1_selector_v1"}
-{"difficulty_lane":"frontier","ingredient_filters":{"domains":["List","Nat"]},"recipe_ids":["list_dedup_pair_length_v1"],"selection_method":"hash_order_first_eligible","selector_id":"frontier_list_dedup_pair_length_v1_selector_v1"}
-{"difficulty_lane":"hard","ingredient_filters":{"domains":["List","Nat"]},"recipe_ids":["list_dedup_pair_length_v1"],"selection_method":"hash_order_first_eligible","selector_id":"hard_list_dedup_pair_length_v1_selector_v1"}
-{"difficulty_lane":"medium","ingredient_filters":{"domains":["List","Nat"]},"recipe_ids":["list_dedup_pair_length_v1"],"selection_method":"hash_order_first_eligible","selector_id":"medium_list_dedup_pair_length_v1_selector_v1"}

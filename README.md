@@ -1,30 +1,39 @@
-# Lemma Proof Atlas
+# lemma-proof-atlas
 
-Public proof data artifacts produced by Lemma validators.
+An open, replayable record of validator-accepted Lean proofs from Lemma.
 
-This repository stores accepted proof rows, pinned active-task registries, reproducible generated-task graph roots, canonical storage commitments, and downstream exports. It must not contain operator state, environment files, wallets, logs, raw failed submissions, machine paths, private notes, or validator spool data.
+Lemma is an open competition where miners prove real, missing Lean theorem
+tasks and validators verify each submission with the Lean kernel. Accepted
+proofs are exported here as a hash-indexed, replayable record. The Atlas is a
+**byproduct of verified work** — not a product, benchmark, or training set.
 
 ## Layout
 
-```text
-proofs/sn467/accepted/       accepted proof JSONL rows
-proofs/sn467/index.json      accepted proof row index
-tasks/sn467/registries/      pinned active-task registries by SHA256
-tasks/sn467/bundles/         generated task artifact bundles
-graph/sn467/roots/           content-addressed generated graph roots
-graph/mathlib/               Mathlib graph publication layer
-generation/                  generation snapshots and policy artifacts
-exports/sn467/               compact downstream JSONL exports
-canonical/sn467/             active-pool, accepted-proof, and commitment artifacts
-```
+- `tasks/sn467/registries/<hash>.json` — the real Mathlib missing-proof task set
+  (`source_stream: mathlib_snapshot`).
+- `tasks/sn467/registries/index.json` — active-set pin index (currently empty).
+- `snapshots/sn467/mathlib-*.jsonl` — the proof-erased Mathlib snapshot the task
+  set derives from.
+- `MANIFEST.sha256` — content hashes for every file in the repo.
 
-## SN467 Proof Atlas
+Accepted-proof rows (`proofs/`), exports, and canonical commitments are
+published only when the real-task market produces validator-accepted proofs.
+At the time of this reset there are none.
 
-- netuid: `467`
-- active K: `10`
-- latest real-task registry: `tasks/sn467/registries/67d4c6e92cb23865f7097722013df79274aed0082e15fcc66f4bc5aff61c3e0c.json`
-- accepted proof rows: `344`
-- real Mathlib rows: `6` in `proofs/sn467/accepted/epoch-000008.jsonl`
-- weights written: `true` for `epoch-000005.jsonl`, `epoch-000006.jsonl`, and `epoch-000007.jsonl`
+## Reset note
 
-These rows are smoke and early real-task proofs for the validator-to-data pipeline, including submissions packaged by the miner path and accepted by the validator path. This is not a production dataset release.
+This repo was reset to carry **only real-task material**. Removed: all
+procedural / smoke (synthetically generated) proof rows and their indexes, the
+recipe-factory / ingredients / graph generation trees, the benchmark exports,
+and the canonical commitments tied to those procedural epochs. They were
+scaffolding for an earlier direction and do not represent real proving work.
+
+## Privacy
+
+No proof scripts for unsolved tasks, nonces, commitments, wallet files, local
+paths, host IPs, operator names, or verifier endpoints. Public SS58 hotkeys may
+appear in accepted rows for attribution.
+
+## License
+
+See `LICENSE`.

@@ -1,21 +1,45 @@
-# Atlas Card
+# Atlas Card — lemma-proof-atlas
 
-## Data
+## Summary
 
-Lemma Proof Atlas SN467 smoke and real-task artifacts.
+The Proof Atlas is an open, replayable record of **validator-accepted** Lean
+proofs from Lemma. Lemma runs an open competition to prove real, missing Lean
+theorem tasks; validators check every submission with the Lean kernel and export
+accepted proofs here, content-addressed for independent replay. The Atlas is a
+**byproduct** of verified work — not a benchmark product or a training set.
 
-## Contents
+## What a row contains (when present)
 
-The checked-in artifact set contains 344 accepted Lean proof rows, pinned registries used to select active K-windows, generated-task graph roots, canonical storage artifacts, and compact JSONL exports for downstream inspection.
+Each accepted-proof row carries the proof script, the Lean toolchain and Mathlib
+revision, the task/target hashes, and the verifier result — everything needed to
+re-check the proof from a clean container.
 
-## Verification
+## Current state
 
-The validator accepted all 344 proofs with the pinned Lean verifier. Schema validation passed before export. The fifth, sixth, and seventh epoch files came from weights-enabled SN467 testnet passes. The eighth epoch contains six real Mathlib-derived theorem tasks accepted in a no-chain validation pass.
+This repo was reset to carry only real-task material:
 
-## Privacy Boundary
+- Kept: the real Mathlib missing-proof task set and its proof-erased snapshot.
+- Removed: all procedural / smoke (synthetically generated) proof rows, the
+  recipe-factory / ingredients / graph generation trees, benchmark exports, and
+  canonical commitments for those procedural epochs.
 
-This repository is public data only. Do not publish validator receipts, submission spools, wallet files, local paths, logs, environment files, private notes, or raw failed submissions.
+There are **no accepted-proof rows yet**; the real-task market had not produced
+accepted proofs at the time of this reset. Real accepted rows, exports, and
+canonical commitments will be published as they are produced.
+
+## What this is not
+
+- Not a leaderboard or marketing surface.
+- Not a "training data" product; reuse is incidental and downstream.
+- No bounty / escrow / reward-custody / UID-variant / synthetic-generation
+  content.
+
+## Privacy
+
+No proof scripts for unsolved tasks, nonces, commitments, wallet files, local
+paths, host IPs, operator names, or verifier endpoints. Public SS58 hotkeys may
+appear for attribution.
 
 ## License
 
-Rows carry source-level license metadata. The smoke rows are generated test data marked `CC-BY-4.0`; the Mathlib-derived rows carry `Apache-2.0` source metadata.
+See `LICENSE`.
